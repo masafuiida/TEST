@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="#008000" android:orientation="vertical">
+    
+    <LinearLayout android:layout_width="fill_parent"  android:orientation="horizontal" android:layout_height="wrap_content" android:layout_marginTop="20px">
+	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:id="@+id/junmeText" android:layout_marginLeft="10dp" android:text="残り 0 巡"></TextView>
+	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:text="成功：0回　失敗：0回" android:layout_marginLeft="50dp" android:id="@+id/resultText"></TextView>
+	</LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"  android:orientation="horizontal" android:layout_height="50dp" android:layout_marginTop="10dp">
+    <ImageView android:id="@+id/tehaiView1" android:layout_width="wrap_content" android:src="@drawable/man1s" android:layout_height="wrap_content" android:layout_marginLeft="5px"></ImageView>
+    <ImageView android:id="@+id/tehaiView2" android:layout_width="wrap_content" android:src="@drawable/man1s" android:layout_height="wrap_content" android:layout_marginLeft="5px"></ImageView>
+    <ImageView android:id="@+id/tehaiView3" android:layout_width="wrap_content" android:src="@drawable/man1s" android:layout_height="wrap_content" android:layout_marginLeft="5px"></ImageView>
+    <ImageView android:id="@+id/tehaiView4" android:layout_width="wrap_content" android:src="@drawable/man1s" android:layout_height="wrap_content" android:layout_marginLeft="5px"></ImageView>
+    <ImageView android:id="@+id/tehaiView5" android:layout_width="wrap_content" android:src="@drawable/man1s" android:layout_height="wrap_content" android:layout_marginLeft="5px"></ImageView>
+    <ImageView android:id="@+id/tehaiView6" android:layout_width="wrap_content" android:src="@drawable/man1s" android:layout_height="wrap_content" android:layout_marginLeft="5px"></ImageView>
+    <ImageView android:id="@+id/tehaiView7" android:layout_width="wrap_content" android:src="@drawable/man1s" android:layout_height="wrap_content" android:layout_marginLeft="5px"></ImageView>
+    <ImageView android:id="@+id/tehaiView8" android:layout_width="wrap_content" android:src="@drawable/man1s" android:layout_height="wrap_content" android:layout_marginLeft="5px"></ImageView>
+    <ImageView android:id="@+id/tehaiView9" android:layout_width="wrap_content" android:src="@drawable/man1s" android:layout_height="wrap_content" android:layout_marginLeft="5px"></ImageView>
+    <ImageView android:id="@+id/tehaiView10" android:layout_width="wrap_content" android:src="@drawable/man1s" android:layout_height="wrap_content" android:layout_marginLeft="5px"></ImageView>
+    <ImageView android:id="@+id/tehaiView11" android:layout_width="wrap_content" android:src="@drawable/man1s" android:layout_height="wrap_content" android:layout_marginLeft="5px"></ImageView>
+    <ImageView android:id="@+id/tehaiView12" android:layout_width="wrap_content" android:src="@drawable/man1s" android:layout_height="wrap_content" android:layout_marginLeft="5px"></ImageView>
+    <ImageView android:id="@+id/tehaiView13" android:layout_width="wrap_content" android:src="@drawable/man1s" android:layout_height="wrap_content" android:layout_marginLeft="5px"></ImageView>
+    <ImageView android:id="@+id/tsumohaiView" android:layout_width="wrap_content" android:src="@drawable/man1s" android:layout_height="wrap_content" android:layout_marginLeft="15px"></ImageView>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"  android:orientation="horizontal" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+	<Button android:layout_height="wrap_content" android:id="@+id/agariButton" android:text="和了り" android:onClick="onAgariClick" android:layout_width="100dp"></Button>
+	<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ripaiCheck" android:layout_marginLeft="200dp" android:text="理牌なし" android:onClick="onRipaiClick"></CheckBox>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"  android:orientation="horizontal" android:layout_height="wrap_content" android:layout_marginTop="30dp">
+	<Button android:layout_height="wrap_content" android:id="@+id/resetButton" android:text="最初から" android:onClick="onResetClick" android:layout_width="100dp"></Button>
+	</LinearLayout>
+	
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <ScrollView
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:layout_weight="1"
+    android:layout_marginTop="0sp" >
+    <LinearLayout
+	    android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+	    <TableLayout android:id="@+id/tableLayout1" android:layout_height="fill_parent" android:layout_width="wrap_content" android:layout_gravity="center" android:layout_marginTop="0sp">
+	        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <TextView android:id="@+id/textView1_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:text="？？？"></TextView>
+	            <TextView android:id="@+id/textView1_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:layout_marginLeft="10dp" android:text="0回"></TextView>
+	        </TableRow>
+	        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	        	<TextView android:id="@+id/textView2_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:text="？？？"></TextView>
+	            <TextView android:id="@+id/textView2_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:layout_marginLeft="10dp" android:text="0回"></TextView>
+	        </TableRow>
+	        <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	        	<TextView android:id="@+id/textView3_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:text="？？？"></TextView>
+	            <TextView android:id="@+id/textView3_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:layout_marginLeft="10dp" android:text="0回"></TextView>
+	        </TableRow>
+	        <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	        	<TextView android:id="@+id/textView4_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:text="？？？"></TextView>
+	            <TextView android:id="@+id/textView4_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:layout_marginLeft="10dp" android:text="0回"></TextView>
+	        </TableRow>
+	        <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	        	<TextView android:id="@+id/textView5_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:text="？？？"></TextView>
+	            <TextView android:id="@+id/textView5_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:layout_marginLeft="10dp" android:text="0回"></TextView>
+	        </TableRow>
+	        <TableRow android:id="@+id/tableRow6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	        	<TextView android:id="@+id/textView6_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:text="？？？"></TextView>
+	            <TextView android:id="@+id/textView6_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:layout_marginLeft="10dp" android:text="0回"></TextView>
+	        </TableRow>
+	        <TableRow android:id="@+id/tableRow7" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	        	<TextView android:id="@+id/textView7_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:text="？？？"></TextView>
+	            <TextView android:id="@+id/textView7_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:layout_marginLeft="10dp" android:text="0回"></TextView>
+	        </TableRow>
+	        <TableRow android:id="@+id/tableRow8" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	        	<TextView android:id="@+id/textView8_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:text="？？？"></TextView>
+	            <TextView android:id="@+id/textView8_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:layout_marginLeft="10dp" android:text="0回"></TextView>
+	        </TableRow>
+	        <TableRow android:id="@+id/tableRow9" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	        	<TextView android:id="@+id/textView9_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:text="？？？"></TextView>
+	            <TextView android:id="@+id/textView9_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:layout_marginLeft="10dp" android:text="0回"></TextView>
+	        </TableRow>
+	        <TableRow android:id="@+id/tableRow10" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	        	<TextView android:id="@+id/textView10_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:text="？？？"></TextView>
+	            <TextView android:id="@+id/textView10_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:layout_marginLeft="10dp" android:text="0回"></TextView>
+	        </TableRow>
+	        <TableRow android:id="@+id/tableRow11" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	        	<TextView android:id="@+id/textView11_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:text="？？？"></TextView>
+	            <TextView android:id="@+id/textView11_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:layout_marginLeft="10dp" android:text="0回"></TextView>
+	        </TableRow>
+	        <TableRow android:id="@+id/tableRow12" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	        	<TextView android:id="@+id/textView12_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:text="？？？"></TextView>
+	            <TextView android:id="@+id/textView12_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:layout_marginLeft="10dp" android:text="0回"></TextView>
+	        </TableRow>
+	        <TableRow android:id="@+id/tableRow13" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	        	<TextView android:id="@+id/textView13_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:text="？？？"></TextView>
+	            <TextView android:id="@+id/textView13_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:layout_marginLeft="10dp" android:text="0回"></TextView>
+	        </TableRow>
+	        <TableRow android:id="@+id/tableRow14" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	        	<TextView android:id="@+id/textView14_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:text="？？？"></TextView>
+	            <TextView android:id="@+id/textView14_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:layout_marginLeft="10dp" android:text="0回"></TextView>
+	        </TableRow>
+	    </TableLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

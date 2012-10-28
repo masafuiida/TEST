@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tileImagesMan">
+	    <item>@drawable/man1s</item>
+	    <item>@drawable/man2s</item>
+	    <item>@drawable/man3s</item>
+	    <item>@drawable/man4s</item>
+	    <item>@drawable/man5s</item>
+	    <item>@drawable/man6s</item>
+	    <item>@drawable/man7s</item>
+	    <item>@drawable/man8s</item>
+	    <item>@drawable/man9s</item>
+    </string-array>
+    
+    <string-array name="tileImagesPin">
+	    <item>@drawable/pin1s</item>
+	    <item>@drawable/pin2s</item>
+	    <item>@drawable/pin3s</item>
+	    <item>@drawable/pin4s</item>
+	    <item>@drawable/pin5s</item>
+	    <item>@drawable/pin6s</item>
+	    <item>@drawable/pin7s</item>
+	    <item>@drawable/pin8s</item>
+	    <item>@drawable/pin9s</item>
+    </string-array>
+    
+    <string-array name="tileImagesSou">
+	    <item>@drawable/so1s</item>
+	    <item>@drawable/so2s</item>
+	    <item>@drawable/so3s</item>
+	    <item>@drawable/so4s</item>
+	    <item>@drawable/so5s</item>
+	    <item>@drawable/so6s</item>
+	    <item>@drawable/so7s</item>
+	    <item>@drawable/so8s</item>
+	    <item>@drawable/so9s</item>
+    </string-array>
+    
+    <string-array name="tileImagesManLarge">
+	    <item>@drawable/man1l</item>
+	    <item>@drawable/man2l</item>
+	    <item>@drawable/man3l</item>
+	    <item>@drawable/man4l</item>
+	    <item>@drawable/man5l</item>
+	    <item>@drawable/man6l</item>
+	    <item>@drawable/man7l</item>
+	    <item>@drawable/man8l</item>
+	    <item>@drawable/man9l</item>
+    </string-array>
+    
+    <string-array name="tileImagesPinLarge">
+	    <item>@drawable/pin1l</item>
+	    <item>@drawable/pin2l</item>
+	    <item>@drawable/pin3l</item>
+	    <item>@drawable/pin4l</item>
+	    <item>@drawable/pin5l</item>
+	    <item>@drawable/pin6l</item>
+	    <item>@drawable/pin7l</item>
+	    <item>@drawable/pin8l</item>
+	    <item>@drawable/pin9l</item>
+    </string-array>
+    
+    <string-array name="tileImagesSouLarge">
+	    <item>@drawable/so1l</item>
+	    <item>@drawable/so2l</item>
+	    <item>@drawable/so3l</item>
+	    <item>@drawable/so4l</item>
+	    <item>@drawable/so5l</item>
+	    <item>@drawable/so6l</item>
+	    <item>@drawable/so7l</item>
+	    <item>@drawable/so8l</item>
+	    <item>@drawable/so9l</item>
+    </string-array>
+    
+    <string-array name="tehaiViews">
+    	<item>tehaiView1</item>
+    	<item>tehaiView2</item>
+    	<item>tehaiView3</item>
+    	<item>tehaiView4</item>
+    	<item>tehaiView5</item>
+    	<item>tehaiView6</item>
+    	<item>tehaiView7</item>
+    	<item>tehaiView8</item>
+    	<item>tehaiView9</item>
+    	<item>tehaiView10</item>
+    	<item>tehaiView11</item>
+    	<item>tehaiView12</item>
+    	<item>tehaiView13</item>
+    </string-array>
+    
+    <string-array name="tiles">
+    	<item>"萬子"</item>
+    	<item>"筒子"</item>
+    	<item>"索子"</item>
+    </string-array>
+</resources>
